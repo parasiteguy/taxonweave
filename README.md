@@ -25,6 +25,7 @@ Given a scientific name, TaxonWeave:
 9. extracts molecular, geographic, collection, and specimen-associated metadata;
 10. conservatively normalizes commonly used molecular-marker annotations; and
 11. produces a structured summary that can be exported as CSV files.
+12. Supports multi-taxon batch reconciliation and comparative auditing of molecular-data and metadata coverage. 
 
 The objective is not to replace taxonomic judgment. TaxonWeave provides a reproducible evidence-reconciliation layer connecting changing taxonomic concepts with molecular records.
 
@@ -122,6 +123,58 @@ taxonweave query "Mercierella enigmatica"
 
 TaxonWeave first resolves the supplied name through WoRMS before constructing the molecular search.
 
+### Batch queries
+
+TaxonWeave can reconcile multiple taxonomic concepts in a single batch workflow. The batch interface applies the same single-taxon reconciliation engine to each submitted name and produces both individual TaxonWeave reports and a combined comparative summary.
+
+Create a CSV file containing a `scientific_name` column:
+
+```csv
+scientific_name
+Alitta succinea
+Ficopomatus enigmaticus
+Boccardia proboscidea
+```
+
+Run the batch query:
+
+```bash
+taxonweave batch species.csv --output results
+```
+
+TaxonWeave creates a separate report directory for each successfully resolved taxon:
+
+```text
+results/
+├── batch_summary.csv
+├── Alitta_succinea/
+│   ├── taxonomy.csv
+│   ├── synonyms.csv
+│   ├── genbank_searches.csv
+│   ├── sequences.csv
+│   └── summary.csv
+├── Ficopomatus_enigmaticus/
+│   └── ...
+└── Boccardia_proboscidea/
+    └── ...
+```
+
+The `batch_summary.csv` file contains one row per submitted taxon and combines the standard TaxonWeave summary statistics with comparative measures of taxonomic reconciliation and GenBank metadata completeness.
+
+Derived percentage fields include:
+
+- `accepted_name_pct` — percentage of retrieved GenBank records deposited under the current accepted WoRMS name
+- `synonym_name_pct` — percentage deposited under a current WoRMS synonym
+- `unresolved_name_pct` — percentage whose deposited taxon name could not be reconciled with the accepted name or WoRMS synonym set
+- `geographic_metadata_pct` — percentage containing geographic metadata
+- `coordinate_metadata_pct` — percentage containing coordinates
+- `collection_date_pct` — percentage containing collection-date metadata
+- `voucher_metadata_pct` — percentage containing a `specimen_voucher` qualifier
+
+These percentages use the number of unique GenBank records retrieved for each taxon as the denominator.
+
+A failure for one submitted taxon does not terminate the batch. Failed queries are recorded in `batch_summary.csv` with `batch_status` and `batch_error`, while TaxonWeave continues processing the remaining taxa.
+
 ### Exporting results
 
 Results can be exported as CSV files:
@@ -210,7 +263,6 @@ Live database queries are conceptually distinct from the deterministic unit test
 
 Planned development includes:
 
-- batch processing of multiple taxonomic names;
 - expanded provenance reporting;
 - additional reconciliation diagnostics;
 - improved handling of specimen and voucher metadata;
