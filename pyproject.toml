@@ -22,3 +22,6 @@ dependencies = [
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["taxonweave*"]
+
+[project.scripts]
+taxonweave = "taxonweave.cli:main"
