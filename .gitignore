@@ -1,0 +1,21 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Packaging artifacts
+*.egg-info/
+build/
+dist/
+
+# macOS
+.DS_Store
+
+# TaxonWeave generated reports
+*_report/
+
+# Test/output files
+genbank_test_records.csv

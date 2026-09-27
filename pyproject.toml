@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "taxonweave"
+version = "0.1.0"
+description = "Provenance-aware reconciliation of taxonomic concepts and molecular sequence records."
+readme = "README.md"
+requires-python = ">=3.9"
+
+authors = [
+    {name = "Andrew Davinack"}
+]
+
+dependencies = [
+    "biopython>=1.81",
+    "pandas>=2.0",
+    "requests>=2.31"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["taxonweave*"]
