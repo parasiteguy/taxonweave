@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "TaxonWeave"
-version = "0.2.0"
+version = "0.2.1"
 description = "Provenance-aware reconciliation of taxonomic concepts and molecular sequence records."
 readme = "README.md"
 requires-python = ">=3.9"
