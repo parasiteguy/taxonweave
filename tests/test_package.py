@@ -12,7 +12,7 @@ def test_package_imports():
 
 def test_version():
     """TaxonWeave should expose its package version."""
-    assert taxonweave.__version__ == "0.2.1"
+    assert taxonweave.__version__ == "0.2.2"
 
 
 def test_query_species_is_available():
