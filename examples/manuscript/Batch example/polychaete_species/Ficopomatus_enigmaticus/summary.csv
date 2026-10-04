@@ -1,0 +1,2 @@
+query_name,accepted_name,aphia_id,worms_synonyms,genbank_search_names,search_names_with_hits,genbank_records,deposited_taxon_names,accepted_name_records,worms_synonym_records,unresolved_name_records,missing_name_records,marker_normalized_records,marker_recognized_records,marker_ambiguous_records,marker_unresolved_records,geographic_records,coordinate_records,collection_date_records,voucher_records
+Ficopomatus enigmaticus,Ficopomatus enigmaticus,130988,2,3,2,304,1,304,0,0,0,284,1,20,0,207,70,145,38

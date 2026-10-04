@@ -1,0 +1,173 @@
+======================================================================
+TAXONWEAVE BATCH QUERY
+======================================================================
+Input taxa: 3
+Output directory: /Users/w00451725/Desktop/examples/Batch example/polychaete_species
+
+----------------------------------------------------------------------
+[1/3] Polydora websteri
+----------------------------------------------------------------------
+
+
+=================================================================
+TAXONWEAVE
+=================================================================
+
+Query: Polydora websteri
+
+[1/2] Resolving taxonomic concept through WoRMS...
+      Query matched: Polydora websteri
+      Query status: accepted
+      Accepted taxon: Polydora websteri
+      WoRMS synonyms: 0
+
+[2/2] Reconciling with GenBank...
+      Taxonomic names to search: 1
+
+Searching GenBank for: Polydora websteri
+/opt/anaconda3/lib/python3.12/site-packages/Bio/Entrez/__init__.py:734: UserWarning: 
+            Email address is not specified.
+
+            To make use of NCBI's E-utilities, NCBI requires you to specify your
+            email address with each request.  As an example, if your email address
+            is A.N.Other@example.com, you can specify it as follows:
+               from Bio import Entrez
+               Entrez.email = 'A.N.Other@example.com'
+            In case of excessive usage of the E-utilities, NCBI will attempt to contact
+            a user at the email address provided before blocking access to the
+            E-utilities.
+  warnings.warn(
+  Found 461 nucleotide records.
+
+      Unique nucleotide records: 461
+Downloading 461 unique GenBank records...
+  Downloading 1-100 of 461...
+  Downloading 101-200 of 461...
+  Downloading 201-300 of 461...
+  Downloading 301-400 of 461...
+  Downloading 401-461 of 461...
+      GenBank records downloaded: 461
+      Reconciling deposited names against WoRMS...
+      Taxonomic reconciliation complete.
+
+Taxonomic-molecular reconciliation complete.
+
+TaxonWeave report exported to:
+/Users/w00451725/Desktop/examples/Batch example/polychaete_species/Polydora_websteri
+Batch status: SUCCESS — Polydora websteri
+
+----------------------------------------------------------------------
+[2/3] Ficopomatus enigmaticus
+----------------------------------------------------------------------
+
+
+=================================================================
+TAXONWEAVE
+=================================================================
+
+Query: Ficopomatus enigmaticus
+
+[1/2] Resolving taxonomic concept through WoRMS...
+      Query matched: Ficopomatus enigmaticus
+      Query status: accepted
+      Accepted taxon: Ficopomatus enigmaticus
+      WoRMS synonyms: 2
+
+[2/2] Reconciling with GenBank...
+      Taxonomic names to search: 3
+
+Searching GenBank for: Ficopomatus enigmaticus
+/opt/anaconda3/lib/python3.12/site-packages/Bio/Entrez/__init__.py:734: UserWarning: 
+            Email address is not specified.
+
+            To make use of NCBI's E-utilities, NCBI requires you to specify your
+            email address with each request.  As an example, if your email address
+            is A.N.Other@example.com, you can specify it as follows:
+               from Bio import Entrez
+               Entrez.email = 'A.N.Other@example.com'
+            In case of excessive usage of the E-utilities, NCBI will attempt to contact
+            a user at the email address provided before blocking access to the
+            E-utilities.
+  warnings.warn(
+  Found 304 nucleotide records.
+Searching GenBank for: Mercierella enigmatica
+  Found 304 nucleotide records.
+Searching GenBank for: Phycopomatus enigmaticus
+  Found 0 nucleotide records.
+
+      Unique nucleotide records: 304
+Downloading 304 unique GenBank records...
+  Downloading 1-100 of 304...
+  Downloading 101-200 of 304...
+  Downloading 201-300 of 304...
+  Downloading 301-304 of 304...
+      GenBank records downloaded: 304
+      Reconciling deposited names against WoRMS...
+      Taxonomic reconciliation complete.
+
+Taxonomic-molecular reconciliation complete.
+
+TaxonWeave report exported to:
+/Users/w00451725/Desktop/examples/Batch example/polychaete_species/Ficopomatus_enigmaticus
+Batch status: SUCCESS — Ficopomatus enigmaticus
+
+----------------------------------------------------------------------
+[3/3] Polydora neocaeca
+----------------------------------------------------------------------
+
+
+=================================================================
+TAXONWEAVE
+=================================================================
+
+Query: Polydora neocaeca
+
+[1/2] Resolving taxonomic concept through WoRMS...
+      Query matched: Polydora neocaeca
+      Query status: junior subjective synonym
+      Accepted taxon: Polydora caeca
+      WoRMS synonyms: 1
+
+[2/2] Reconciling with GenBank...
+      Taxonomic names to search: 2
+
+Searching GenBank for: Polydora caeca
+/opt/anaconda3/lib/python3.12/site-packages/Bio/Entrez/__init__.py:734: UserWarning: 
+            Email address is not specified.
+
+            To make use of NCBI's E-utilities, NCBI requires you to specify your
+            email address with each request.  As an example, if your email address
+            is A.N.Other@example.com, you can specify it as follows:
+               from Bio import Entrez
+               Entrez.email = 'A.N.Other@example.com'
+            In case of excessive usage of the E-utilities, NCBI will attempt to contact
+            a user at the email address provided before blocking access to the
+            E-utilities.
+  warnings.warn(
+  Found 15 nucleotide records.
+Searching GenBank for: Polydora neocaeca
+  Found 91 nucleotide records.
+
+      Unique nucleotide records: 106
+Downloading 106 unique GenBank records...
+  Downloading 1-100 of 106...
+  Downloading 101-106 of 106...
+      GenBank records downloaded: 106
+      Reconciling deposited names against WoRMS...
+      Taxonomic reconciliation complete.
+
+Taxonomic-molecular reconciliation complete.
+
+TaxonWeave report exported to:
+/Users/w00451725/Desktop/examples/Batch example/polychaete_species/Polydora_caeca
+Batch status: SUCCESS — Polydora neocaeca
+
+======================================================================
+BATCH COMPLETE
+======================================================================
+Submitted: 3
+Successful: 3
+Failed: 0
+Batch summary: /Users/w00451725/Desktop/examples/Batch example/polychaete_species/batch_summary.csv
+
+(base) w00451725@22-295 Batch example % 
