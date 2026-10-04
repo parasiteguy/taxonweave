@@ -1,0 +1,202 @@
+
+
+=================================================================
+TAXONWEAVE
+=================================================================
+
+Query: Polydora websteri
+
+[1/2] Resolving taxonomic concept through WoRMS...
+      Query matched: Polydora websteri
+      Query status: accepted
+      Accepted taxon: Polydora websteri
+      WoRMS synonyms: 0
+
+[2/2] Reconciling with GenBank...
+      Taxonomic names to search: 1
+
+Searching GenBank for: Polydora websteri
+  Found 461 nucleotide records.
+
+      Unique nucleotide records: 461
+Downloading 461 unique GenBank records...
+  Downloading 1-100 of 461...
+  Downloading 101-200 of 461...
+  Downloading 201-300 of 461...
+  Downloading 301-400 of 461...
+  Downloading 401-461 of 461...
+      GenBank records downloaded: 461
+      Reconciling deposited names against WoRMS...
+      Taxonomic reconciliation complete.
+
+Taxonomic-molecular reconciliation complete.
+
+
+======================================================================
+TAXONWEAVE TAXONOMIC-MOLECULAR RECONCILIATION REPORT
+======================================================================
+
+QUERY
+
+Name entered: Polydora websteri
+WoRMS matched name: Polydora websteri
+WoRMS matched status: accepted
+Matched AphiaID: 153847
+
+CURRENT WORMS CONCEPT
+
+Accepted name: Polydora websteri
+Authority: Hartman in Loosanoff & Engle, 1943
+Accepted AphiaID: 153847
+
+CLASSIFICATION
+
+Superdomain: Biota
+Kingdom: Animalia
+Phylum: Annelida
+Class: Polychaeta
+Subclass: Sedentaria
+Infraclass: Canalipalpata
+Order: Spionida
+Suborder: Spioniformia
+Family: Spionidae
+Genus: Polydora
+Species: Polydora websteri
+
+WORMS SYNONYMS
+
+No WoRMS synonyms returned.
+
+GENBANK SEARCH PROVENANCE
+
+Polydora websteri: 461 records
+
+Search names producing records: 1/1
+
+GENBANK MOLECULAR EVIDENCE
+
+Unique nucleotide records: 461
+Distinct deposited taxon names: 1
+
+DEPOSITED TAXON IDENTIFICATIONS
+
+deposited_name
+Polydora websteri    461
+
+TAXONOMIC RECONCILIATION
+
+Accepted-name records: 461
+WoRMS-synonym records: 0
+Unresolved deposited names: 0
+Missing deposited names: 0
+
+MOLECULAR MARKERS
+
+marker_normalized
+COI     225
+None    181
+CytB     41
+18S       9
+16S       3
+28S       2
+
+MOLECULAR ANNOTATION STATUS
+
+Records containing normalized annotations: 280
+Records containing recognized annotations: 0
+Records containing ambiguous annotations: 180
+Records containing unresolved annotations: 1
+
+ANNOTATIONS REQUIRING REVIEW
+
+ accession                  marker_raw marker_normalized marker_category normalization_status
+PP693936.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+PP693935.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+PP693934.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+PP693933.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+PP683271.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+PP683270.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+PP683269.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+PP683268.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+PP683204.1 small subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+PP683203.1 small subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+PP683202.1 small subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+PP683201.1 small subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+PP601424.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+PP601423.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+PP601422.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+PP601421.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+PP601420.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+PP591930.1 small subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+PP591929.1 small subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+PP591928.1 small subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+OR335824.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+OR335821.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+OR335820.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+OR335819.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+OR335818.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+OR335817.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+OR335816.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+OR335815.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+OR335814.1 large subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+OR224257.1 small subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+OR224256.1 small subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+OR224255.1 small subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+OR224253.1 small subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+OR224252.1 small subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+OR224251.1 small subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+OR224250.1 small subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+OR224248.1 small subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+OR224247.1 small subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+OR224246.1 small subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+OR224245.1 small subunit ribosomal RNA              None   ribosomal_RNA            AMBIGUOUS
+
+GENBANK METADATA COMPLETENESS
+
+Geographic metadata: 438
+Coordinates: 41
+Collection dates: 285
+specimen_voucher metadata: 81
+
+SPECIMEN VOUCHER METADATA
+
+Records containing specimen_voucher: 81
+
+ accession    deposited_name name_relationship marker_normalized                                                                            geo_loc_name    voucher_raw
+PP601424.1 Polydora websteri     ACCEPTED_NAME              None                                                                                   Italy            11b
+PP601423.1 Polydora websteri     ACCEPTED_NAME              None                                                                                   Italy            14b
+PP601422.1 Polydora websteri     ACCEPTED_NAME              None                                                                                   Italy            15b
+PP601421.1 Polydora websteri     ACCEPTED_NAME              None                                                                                   Italy             4b
+PP601420.1 Polydora websteri     ACCEPTED_NAME              None                                                                                   Italy             6b
+PP591930.1 Polydora websteri     ACCEPTED_NAME              None                                                                                   Italy      25214.11b
+PP591929.1 Polydora websteri     ACCEPTED_NAME              None                                                                                   Italy      25219.14b
+PP591928.1 Polydora websteri     ACCEPTED_NAME              None                                                                                   Italy       25211.6b
+OQ078900.1 Polydora websteri     ACCEPTED_NAME               COI USA: Virginia, Northampton County, Lower Chesapeake Bay, Cape Charles Beach, swim buoys SERCINVERT2817
+OR335824.1 Polydora websteri     ACCEPTED_NAME              None                                           Russia: Black Sea, North-east coast, Blue bay        bls1070
+OR335821.1 Polydora websteri     ACCEPTED_NAME              None                                                              Russia: Azov Sea,Taman Bay        bls1296
+OR335820.1 Polydora websteri     ACCEPTED_NAME              None                                                          Russia: Azov Sea, Kerch Strait        bls1089
+OR335819.1 Polydora websteri     ACCEPTED_NAME              None                                                          Russia: Azov Sea, Kerch Strait        bls1088
+OR335818.1 Polydora websteri     ACCEPTED_NAME              None                                                          Russia: Azov Sea, Kerch Strait        bls1086
+OR335817.1 Polydora websteri     ACCEPTED_NAME              None                                                          Russia: Azov Sea, Kerch Strait        bls1085
+OR335816.1 Polydora websteri     ACCEPTED_NAME              None                                                          Russia: Azov Sea, Kerch Strait        bls1084
+OR335815.1 Polydora websteri     ACCEPTED_NAME              None                                                          Russia: Azov Sea, Kerch Strait        bls1083
+OR335814.1 Polydora websteri     ACCEPTED_NAME              None                                           Russia: Black Sea, North-east coast, Blue bay        bls1069
+OR304338.1 Polydora websteri     ACCEPTED_NAME               COI                                      Russia: Black Sea, North-east coast, Gelendjik bay        bls1452
+OR304337.1 Polydora websteri     ACCEPTED_NAME               COI                                      Russia: Black Sea, North-east coast, Gelendjik bay        bls1451
+OR304336.1 Polydora websteri     ACCEPTED_NAME               COI                                      Russia: Black Sea, North-east coast, Gelendjik bay        bls1448
+OR304335.1 Polydora websteri     ACCEPTED_NAME               COI                                      Russia: Black Sea, North-east coast, Gelendjik bay        bls1447
+OR304334.1 Polydora websteri     ACCEPTED_NAME               COI                                      Russia: Black Sea, North-east coast, Gelendjik bay        bls1446
+OR304333.1 Polydora websteri     ACCEPTED_NAME               COI                                      Russia: Black Sea, North-east coast, Gelendjik bay        bls1445
+OR304332.1 Polydora websteri     ACCEPTED_NAME               COI                                      Russia: Black Sea, North-east coast, Gelendjik bay        bls1444
+OR304331.1 Polydora websteri     ACCEPTED_NAME               COI                                      Russia: Black Sea, North-east coast, Gelendjik bay        bls1443
+OR304330.1 Polydora websteri     ACCEPTED_NAME               COI                                      Russia: Black Sea, North-east coast, Gelendjik bay        bls1442
+OR304329.1 Polydora websteri     ACCEPTED_NAME               COI                                      Russia: Black Sea, North-east coast, Gelendjik bay        bls1441
+OR304328.1 Polydora websteri     ACCEPTED_NAME               COI                                      Russia: Black Sea, North-east coast, Gelendjik bay        bls1439
+OR304327.1 Polydora websteri     ACCEPTED_NAME               COI                                      Russia: Black Sea, North-east coast, Gelendjik bay        bls1437
+
+
+======================================================================
+END TAXONWEAVE REPORT
+======================================================================
+
+
